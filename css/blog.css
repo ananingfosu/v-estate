@@ -1,0 +1,46 @@
+:root {
+    --color-primary: #0066FF;
+    --color-text: #8D8D8D;
+    --color-topic: #212223;
+    --color-bgwhite: white;
+
+    --container--width-lg: 80%;
+    --container--width-md: 90%;
+    --container--width-sm: 94%;
+
+    --transition: all 400ms ease;
+}
+
+
+
+/** BLOG PAGE HERO SECTION **/
+.blogpage__hero {
+    position: relative;
+    top: 5rem;
+    margin-bottom: 3rem;
+    overflow: hidden;
+    background-color: rgb(244, 250, 255);
+    background-image: url("../images/aboutbg.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 300px 0;
+}
+
+.blogpage__about h1 {
+    color: var(--color-primary);
+}
+
+
+
+/** MEDIA QUERIES TABLETS **/
+@media screen and (max-width: 1024px) {
+    .blogpage__hero {
+        padding: 250px 0;
+    }
+
+    .blogpage__about h1 {
+        overflow: hidden;
+        margin: 1rem;
+    }
+}
+

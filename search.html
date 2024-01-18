@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link rel="shortcut icon" href="images/newfavicon.png" type="image/x-icon">  
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/searchpage.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Search Valley Estate</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4><span>V.</span>ESTATE</h4></a>
+            <ul class="nav__menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="listings.html">Listings</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#quicklinks">Quick Links</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></i></button>
+        </div>
+    </nav>
+
+
+    <!-- SEARCH PAGE HERO SECTION -->
+    <section class="searchproperty">
+        <div class="searchpage__hero">
+            <div class="searchpage__title">
+                <h1>Search</h1>
+            </div>
+
+            <div class="container searchcontainer">
+                <form>
+                    <i class="uil uil-search"></i>
+                    <input type="text" name="" id="search-item" placeholder="Search property or location ..." onkeyup="search()">
+                </form>
+
+                <div class="property__list" id="product__list">
+                    
+                    <div class="each__property">
+                        <a href="aboutlisting.html"><img src="images/house1.png" alt=""></a>
+
+                        <div class="p__details">
+                            <h3><a>3 Bedroom, Garage<br> <span>Kumasi</span></a></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="each__property">
+                        <a href="aboutlisting.html"><img src="images/house2.png" alt=""></a>
+
+                        <div class="p__details">
+                            <h3><a>2 Bedroom, Hall<br> <span>Accra</span></a></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="each__property">
+                        <a href="aboutlisting.html"><img src="images/house3.png" alt=""></a>
+
+                        <div class="p__details">
+                            <h3><a>3 Bedroom, Hall<br> <span>Accra</span></a></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="each__property">
+                        <a href="aboutlisting.html"><img src="images/house4.png" alt=""></a>
+
+                        <div class="p__details">
+                            <h3><a>3 Bedroom, Garden<br> <span>Sunyani</span></a></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="each__property">
+                        <a href="aboutlisting.html"><img src="images/house5.png" alt=""></a>
+
+                        <div class="p__details">
+                            <h3><a>3 Bedroom, Pool<br> <span>Accra</span></a></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="each__property">
+                        <a href="aboutlisting.html"><img src="images/house6.png" alt=""></a>
+
+                        <div class="p__details">
+                            <h3><a>3 Bedroom, Hall<br> <span>Accra</span></a></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="each__property">
+                        <a href="aboutlisting.html"><img src="images/house7.png" alt=""></a>
+
+                        <div class="p__details">
+                            <h3><a>2 Bedroom, Hall, Garage<br> <span>Kumasi</span></a></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="each__property">
+                        <a href="aboutlisting.html"><img src="images/house8.png" alt=""></a>
+
+                        <div class="p__details">
+                            <h3><a>3 Bedroom, Garage, Pool<br> <span>Kumasi</span></a></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="each__property">
+                        <a href="aboutlisting.html"><img src="images/house9.png" alt=""></a>
+
+                        <div class="p__details">
+                            <h3><a>3 Bedroom, Garage<br> <span>Kumasi</span></a></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="each__property">
+                        <a href="aboutlisting.html"><img src="images/house10.png" alt=""></a>
+
+                        <div class="p__details">
+                            <h3><a>2 Bedroom, Hall<br> <span>Accra</span></a></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="each__property">
+                        <a href="aboutlisting.html"><img src="images/house11.png" alt=""></a>
+
+                        <div class="p__details">
+                            <h3><a>3 Bedroom, Hall<br> <span>Accra</span></a></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="each__property">
+                        <a href="aboutlisting.html"><img src="images/house12.png" alt=""></a>
+
+                        <div class="p__details">
+                            <h3><a>3 Bedroom, Garden<br> <span>Sunyani</span></a></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="each__property">
+                        <a href="aboutlisting.html"><img src="images/house6.png" alt=""></a>
+
+                        <div class="p__details">
+                            <h3><a>3 Bedroom, Hall<br> <span>Accra</span></a></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="each__property">
+                        <a href="aboutlisting.html"><img src="images/house7.png" alt=""></a>
+
+                        <div class="p__details">
+                            <h3><a>2 Bedroom, Hall, Garage<br> <span>Kumasi</span></a></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="each__property">
+                        <a href="aboutlisting.html"><img src="images/house8.png" alt=""></a>
+
+                        <div class="p__details">
+                            <h3><a>3 Bedroom, Garage, Pool<br> <span>Kumasi</span></a></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="each__property">
+                        <a href="aboutlisting.html"><img src="images/house9.png" alt=""></a>
+
+                        <div class="p__details">
+                            <h3><a>3 Bedroom, Garage<br> <span>Kumasi</span></a></h3>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+        
+
+
+
+    <!-- FOOTER SECTION -->
+    <footer id="quicklinks">
+        <div class="container footer__container">
+            <div class="footer__left">
+               <div class="footer__1">
+                   <a href="index.html"><h4><span>V.</span>ESTATE</h4></a>
+                   <p>
+                       You found your next home yet? Lets us help you find that one home!
+                   </p>
+                </div>
+            </div>
+
+           <div class="footer__right">
+               <div class="footer__2">
+                   <h4>Company</h4>
+                   <ul class="permalinks">
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="about.html#Agents">Agents</a></li>
+                      <li><a href="blog.html">Blogs</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="contact.html#sellhouse">Sell House</a></li>
+                   </ul>
+               </div>
+  
+              <div class="footer__3">
+                  <h4>Socials</h4>
+                  <ul class="permalinks">
+                   <li><a href="https://www.instagram.com/ananing.fosu/" target="_blank">Instagram</a></li>
+                   <li><a href="https://www.twitter.com/AnaningFosu/" target="_blank">Twitter</a></li>
+                   <li><a href="https://www.telegram.com/" target="_blank">Telegram</a></li>
+              </div>
+  
+              <div class="footer__4">
+                  <h4>Support</h4>
+                  <ul class="permalinks">
+                      <li><a href="faqs.html">FAQs</a></li>
+                      <li><a href="faqs.html#Policy">Policy</a></li>
+                  </ul>
+              </div>
+           </div> 
+
+        </div>
+
+        
+        <div class="footer__copyright">
+           <small>Copyright &copy; Ananing Fosu Kwame 2022</small>
+       </div>
+    </footer>
+
+
+   <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+:root {
+    --color-primary: #0066FF;
+    --color-text: #8D8D8D;
+    --color-topic: #212223;
+    --color-bgwhite: white;
+
+    --container--width-lg: 80%;
+    --container--width-md: 90%;
+    --container--width-sm: 94%;
+
+    --transition: all 400ms ease;
+}
+
+
+
+/** SUPPORT PAGE HERO SECTION **/
+.supportpage__hero {
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    background-color: rgb(244, 250, 255);
+    background-image: url("../images/aboutbg.jpg");
+    background-size: cover;
+    color: var(--color-primary);
+    text-align: center;
+    padding: 300px 0;
+    margin-bottom: 5rem;
+    
+}
+
+
+/** FAQs SECTION**/
+.buy__sect {
+    margin-bottom: 1rem;
+}
+
+.buy__info {
+    text-align: left;
+}
+
+.buy__info h3 {
+    color: #0066FF;
+}
+
+.buy__info h2 {
+    color: var(--color-topic);
+    margin-bottom: 0.6rem;
+}
+
+
+.how__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.how {
+    color: white;
+    border-radius: 0.5rem;
+    background: var(--color-primary);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    gap: 1.4rem;
+    cursor: pointer;
+}
+
+.how h4 {
+    font-size: 1rem;
+    line-height: 2.2;
+}
+
+.how__icon {
+    align-self: flex-start;
+    font-size: 1.2rem;
+}
+
+.how p {
+    margin-top: 0.8rem;
+    display: none;
+}
+
+.how.open p {
+    display: block;
+}
+
+.question__answer1{
+    margin-bottom: 1rem;
+}
+
+
+
+/** MEDIA QUERIES (MOBILE) **/
+@media screen and (max-width: 700px) {
+
+    .how__container {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+}
